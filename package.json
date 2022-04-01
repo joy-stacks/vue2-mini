@@ -1,0 +1,27 @@
+{
+  "name": "vue2-mini",
+  "version": "1.0.0",
+  "description": "vue2源码",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joy-stacks/vue2-mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joy-stacks/vue2-mini/issues"
+  },
+  "homepage": "https://github.com/joy-stacks/vue2-mini#readme",
+  "dependencies": {
+    "rollup": "^2.70.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}

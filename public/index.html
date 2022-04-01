@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue2-mini</title>
+    <script src="../dist/vue2-mini.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data(){
+                return {
+                    name: 'zs'
+                }
+            }
+        })
+        console.log(vm)
+        console.log(vm.name)
+        console.log(vm._data.name)
+    </script>
+</body>
+</html>
